@@ -1,0 +1,54 @@
+# Display-Proyect
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+  <header class="header">
+    <figure class="header__logo">
+      <img class="Logo" src="./sanlologo.jpg" alt="Logo">
+      <img class="Ciclon" src="./flyer_dia_amigo.jpeg" alt="Ciclon">
+    </figure>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Institucional</a>
+        </li>
+        <li>
+          <a href="#">Cancionero</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <aside class="routes">
+      <figure class="routes__images">
+        <img class="hinchada" src="./Sanlo.jpg" alt="Route 1">
+        <img class="hinchas"  src="./hinchas.jpg" alt="Route 2">
+        <img class="libertador" src="./ortigoza-libertadores.jpg" alt="Route 3">
+        <img class="libertadores" src="./casla-libertadores-2014.jpg" alt="Route 4">
+      </figure>
+    </aside>
+    <section class="content">
+      <p class="description">
+        Cuervo, mi buen amigo, esta campaña volveremo a estar contigo, te alentaremos de corazon esta es tu hinchada que te quiere ver campeon.. y otras tantas canciones que tiene el repertorio de la hinchada de San Lorenzo, una de las mejores del pais.
+      </p>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Creado por Alejo Olivera</p>
+  </footer>
+</body>
+</html>
